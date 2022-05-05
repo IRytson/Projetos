@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"imperatorbold";
+    src: url(../fonts/Imperator\ Bold.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"imperator";
+    src: url(../fonts/Imperator.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"imperatorbronze";
+    src: url(../fonts/ImperatorBronze.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"imperatorsmallcaps";
+    src: url(../fonts/ImperatorSmallCaps.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
