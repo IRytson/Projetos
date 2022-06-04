@@ -1,0 +1,282 @@
+body{
+    background-color: black;
+    color: white;
+    max-width: 1200px;
+    max-height: 2460px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family:'Inter', sans-serif;
+}
+
+/* Navbar */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    margin-left: 18px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#a51b0b;
+}
+
+/* Descrição*/
+main{
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+aside{
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+p{
+    font-weight: 300;  
+    line-height: 5px;
+}
+
+.img_ft{
+    margin-left: 135%;
+    max-width: 500px;
+}
+.respanse{
+    display: none;
+}
+/* Projetos */
+
+section{
+    height: 720px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/*Projeto 01*/
+
+.card{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :#fff;
+}
+
+.cardimage .img1{
+    max-width: 100%;
+}
+
+.card .cardfooter{
+    padding: 5px 40px;
+}
+
+.cardfooter h2{
+    margin-bottom: 10px;
+}
+
+.card .cardfooter p{
+    line-height: 20px;
+    font-size: 15px ;
+}
+
+/*Projeto 02*/
+.card_1{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :white;
+}
+
+.cardimage .img2{
+    max-width: 100%;
+}
+
+.card_1 .cardfooter{
+    padding: 5px 30px;
+}
+
+.cardfooter h2{
+    margin-bottom: 12px;
+}
+
+.card_1 .cardfooter p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*Projeto 03*/
+.card_2{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :white;
+}
+
+.cardimage .img3{
+    max-width: 100%;
+}
+
+.card_2 .cardfooter{
+    padding: 5px 30px;
+}
+
+.cardfooter h2{
+    margin-bottom: 12px;
+}
+
+.card_2 .cardfooter p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.btn1{
+    padding: 20px 30px;
+    margin-left: 85%;
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: #a51b0b;
+}
+
+/* Designers */
+
+section{
+    height: 720px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/*Projeto 01*/
+
+.card{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :#fff;
+}
+
+.cardimage img{
+    max-width: 100%;
+}
+
+.card .cardfooter{
+    padding: 5px 40px;
+}
+
+.cardfooter h2{
+    margin-bottom: 10px;
+}
+
+.card .cardfooter p{
+    line-height: 20px;
+    font-size: 15px ;
+}
+
+/*Projeto 02*/
+.card_1{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :white;
+}
+
+.cardimage img{
+    max-width: 100%;
+}
+
+.card_1 .cardfooter{
+    padding: 5px 30px;
+}
+
+.cardfooter h2{
+    margin-bottom: 12px;
+}
+
+.card_1 .cardfooter p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*Projeto 03*/
+.card_2{
+    margin: 10px;
+    width: 333px;
+    border-radius: 5px;
+    background-color:#121212;
+    color :white;
+}
+
+.cardimage img{
+    max-width: 100%;
+}
+
+.card_2 .cardfooter{
+    padding: 5px 30px;
+}
+
+.cardfooter h2{
+    margin-bottom: 12px;
+}
+
+.card_2 .cardfooter p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.btn1{
+    padding: 20px 30px;
+    margin-left: 85%;
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: #a51b0b;
+}
+
+
+/*Footer*/
+
+.rodape{
+    display: flex;
+    justify-content:space-between;
+}
+
+.name{
+    align-self: center;
+}
+
+.redes img{
+    width: 30px;
+}
